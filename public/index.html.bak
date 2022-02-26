@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Paper Templates</title>
+  <meta name="description" content="Good printable grid paper">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      background-color: whitesmoke;
+    }
+    h1 > a {
+      text-decoration: none;
+      color: inherit;
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 1.6;
+    }
+    .blog {
+      max-width: 38rem;
+      padding: 1.5rem;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Grid Paper Templates</h1>
+  <p>Your home for all printable grid paper and graph paper templates, including for 2D pixel art and 3D voxel art. We have metric and imperial units. More grids coming soon!</p>
+  <ul>
+    <li>PDF 1</li>
+    <li>PDF 2</li>
+    <li>PDF 3</li>
+  </ul>
+</body>
+</html>
