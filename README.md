@@ -5,6 +5,9 @@
 ## Setup
 
 
+Deploy: `firebase deploy`
+
+
 
 ## Resources
 
@@ -18,3 +21,4 @@
 - Ability to adjust grid size, for example full sheet vs x by y (20x20 or 32x64)
 - Ability to buy waterproof notebooks of various grids
 - Add footer (below #content) that has licenses, EULA, privacy policy, etc
+- Maybe add analytics and performance monitoring (https://firebase.google.com/docs/hosting/)
