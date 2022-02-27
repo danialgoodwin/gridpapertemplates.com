@@ -11,7 +11,6 @@
 
 
 ## TODO
-- Email us for more options
 - Add ability for users/browser to cache PDFs for at least a week
 - Ability to adjust paper size, for example 8.5x11" vs A4
 - Ability to adjust lines, for example dotted vs solid
