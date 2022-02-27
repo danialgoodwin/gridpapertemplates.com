@@ -18,11 +18,6 @@
       font-size: 1.5rem;
       line-height: 1.6;
     }
-    .blog {
-      max-width: 38rem;
-      padding: 1.5rem;
-      margin: auto;
-    }
     #content {
         background: whitesmoke;
         max-width: 38rem;
@@ -31,11 +26,15 @@
         border-radius: 3px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     }
+    footer {
+        max-width: 38rem;
+        margin: 0 auto;
+        text-align: center
+    }
     .pdf-link {
         display: block;
         text-align: center;
         background: #1779ba;
-        /*background: #039be5;*/
         text-transform: uppercase;
         text-decoration: none;
         color: white;
@@ -45,7 +44,6 @@
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     }
     .footer-email {
-        text-align: center
     }
     @media (max-width: 600px) {
         body, #content { margin-top: 0; background: white; box-shadow: none; }
@@ -85,9 +83,19 @@
     <br>
     <br>
     <footer>
-      <p class="footer-email">
-        Please email us if there are more paper templates that you would like to see:<br><a href="mailto:support@gridpapertemplates.com">support@gridpapertemplates.com</a>
-      </p>
+      <p class="footer-email">Feel free to email me if there are more paper templates that you would like to see. I'll add it as soon as possible.<br><a href="mailto:support@gridpapertemplates.com">support@gridpapertemplates.com</a></p>
+      <br>
+      <p>Please consider donating to support independent developers:</p>
+
+      <div>
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+          <input type="hidden" name="business" value="U3FY4N2TKKN86" />
+          <input type="hidden" name="no_recurring" value="0" />
+          <input type="hidden" name="currency_code" value="USD" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        </form>
+      </div>
+
     </footer>
 
   </div>
